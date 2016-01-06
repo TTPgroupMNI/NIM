@@ -1,0 +1,101 @@
+
+
+img.imgboxFloat {
+    float:left;
+    margin: 0 40px 0px;
+   	clear: left;
+
+}
+img.imgboxFloat2 {
+    float:right;
+    margin: 0 40px 0px;
+   	clear: right;
+
+
+}
+
+.newsMockup{	
+	margin-left:170px;
+	color:white;
+
+
+
+}
+.tablePagraphR{
+	width: 40%;
+	margin: 0 auto;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	padding: 0px;
+	float: left;
+	
+}
+a{
+	font-style: italic;
+	font-size: 30px;
+	margin: 50px;
+	margin-bottom: 20px;
+	color: red;
+	padding-bottom: 0px;
+	
+
+
+
+}
+.tablePagraphL{
+	width: 40%;
+	margin: 0 auto;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	padding: 0px;
+	 float: left;
+
+}
+.textboxFloat{
+	width: 950px;
+	margin: 0 auto;
+	margin-right: 40px;
+	margin-bottom: 140px;
+
+	padding: 0px;
+	float: right;
+	clear right;
+	position:static;
+
+}
+.textboxFloat2{
+	
+	width: 900px;
+	margin: 0 auto;
+	margin-left: 40px;
+	
+	padding: 0px;
+	float: left;
+	
+}
+
+.blackBody{
+	background-color: black;
+	font-color: white;
+
+}
+
+div.header1{
+	padding: 0px;
+	font-style: italic;
+	font-size: 20px; 
+	color: green; 
+	background-color: transparent; 
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+
+span.bold{font-style: italic;}
+.ipsum1{font-size: 18px; color: green; background-color: yellow}
+.ipsum2{font-size: 18px; color: yellow; background-color: green}
+
+div.infoBox{
+	border: 5px solid black;
+
+}
