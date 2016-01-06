@@ -18,8 +18,9 @@ img.imgboxFloat2 {
 	margin-left:170px;
 	color:white;
 
-
-
+}
+.fontRed{
+  color: white;
 }
 .tablePagraphR{
 	width: 40%;
@@ -30,18 +31,7 @@ img.imgboxFloat2 {
 	float: left;
 	
 }
-a{
-	font-style: italic;
-	font-size: 30px;
-	margin: 50px;
-	margin-bottom: 20px;
-	color: red;
-	padding-bottom: 0px;
-	
 
-
-
-}
 .tablePagraphL{
 	width: 40%;
 	margin: 0 auto;
@@ -76,8 +66,7 @@ a{
 
 .blackBody{
 	background-image: url("night-690182.jpg");
-	font-color: white;
-
+	
 }
 
 div.header1{
