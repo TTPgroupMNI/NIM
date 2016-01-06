@@ -1,0 +1,15 @@
+h1{
+	color: darkGreen;
+	font: Georgia;
+	text-align: center;
+}
+h2{
+	font: Georgia;
+	text-align: center;
+
+}
+img{
+	float: left;
+	padding-right: 30px;
+}
+
