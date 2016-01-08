@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<html>
+	<link rel="stylesheet" href="try.css">
+		<title>
+			Israel Omede | NIM 
+		</title>
+			<h1>
+				CREATING-THE-FUTURE      |     HOME
+			</h1>
+		<a href="https://www.facebook.com/" target="_blank" alt="facebook"><img class="pic1" src="http://www.colecovision.dk/images/news-logo-lille.jpg"></a>
+		<body>
+			<div>
+				<h2>
+					Refugees
+				</h2>
+				<img src="http://d1udmfvw0p7cd2.cloudfront.net/wp-content/uploads/2015/09/f-refus-a-20150909.jpg" class="picR">
+				<p>
+					Germany registered 1.1 million asylum seekers in 2015, the interior ministry said Wednesday, with refugees from war-torn Syria making up almost 40 percent of arrivals. The annual arrivals were a record for Europe's biggest economy and around five times more than in 2014. The number of Syrians seeking refuge in Germany last year hit 428,468, with Afghans the second-biggest group at 154,046, followed by Iraqis at 121,662.
+					Click <a href="http://america.aljazeera.com/articles/2016/1/6/refugees-germany-more-than-1million.html" alt="AlJazeera">here</a> to read more...
+				</p>
+			</div>
+			<br>
+			<div>
+				<h2>
+					SPORTS
+				</h2>
+				<a href="http://www.fcbarcelona.com/" target="_blank"><img class="pic2" src="http://www.image4world.com/vb/imgcache/2/23092poster.jpg"></a>
+				<p>
+					The best team in the world, the unstoppable giants. Helped by M-S-N. Listen to me about Barca! 
+					Founded in 1899 by a group of Swiss, English and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto "Més que un club" (More than a club). Unlike many other football clubs, the supporters own and operate Barcelona. It is the second most valuable sports team in the world, worth $3.2 billion, and the world's fourth richest football club in terms of revenue, with an annual turnover of €484.6 million. The official Barcelona anthem is the "Cant del Barça", written by Jaume Picas and Josep Maria Espinàs. Keep reading <a href="https://en.wikipedia.org/wiki/FC_Barcelona#cite_note-5" target="_blank">here</a>...
+				</p>
+			</div>
+			<br>
+			<div>
+				<h2>
+					Media
+				</h2>
+				<img src="http://www.cleantechies.com/wp-content/uploads/2014/07/Fraud.jpg" class="pic3">
+				<p>
+					Federal regulators say Lumosity deceived consumers about the science backing what its "brain workout" program can do.Now its creator, Lumos Labs, has agreed to a settlement with the Federal Trade Commission that includes paying a $2 million fine. If the company breaks the terms of its settlement, it could be on the hook for as much as $50 million, regulators said Tuesday. Lumosity offers subscription-based access to games and activities on its website and mobile app, and the company has touted the program's "proven" ability to enhance brain function, ward off degenerative brain diseases, and improve academic and athletic performance. The FTC, however, says the company didn't have evidence to back  those claims, which were widely promoted through email campaigns, social media posts and advertisements, including some that appeared on CNN.
+					Click <a href="http://money.cnn.com/2016/01/05/technology/lumosity-brain-train-app-ftc-settlement/index.html" target="_blank">here</a> to keep reading.....
+				</p>
+			</div>
+			<br>
+			<div>
+				<h2>
+					Universal
+				</h2>
+				<img src="http://www.eonline.com/eol_images/Entire_Site/20131013/rs_560x415-131113144527-1024.perry.cm.111313_copy.jpg" class="picC">
+				<p>
+					UNICEF is a leading humanitarian and development agency working globally for the rights of every child. Child rights begin with safe shelter, nutrition, protection from disaster and conflict and traverse the life cycle: pre-natal care for healthy births, clean water and sanitation, health care and education. UNICEF has spent nearly 70 years working to improve the lives of children and their families. Working with and for children through adolescence and into adulthoodrequires a global presence whose goal is to produce results and monitor their effects. UNICEF also lobbies and partners with leaders, thinkers and policy makers tohelp all children realize their rights—especially the most disadvantaged.
+					Click <a href="http://unicef.org" target="_blank">here</a> to make a difference in the lives of people who are in need, today!
+				</p> 
+			</div>
+		</body>
+		<br>
+		<br>
+		<footer> 
+			<p id="foot">Israel O.</p>
+		</footer>
+	</html>
