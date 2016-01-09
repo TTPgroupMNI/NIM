@@ -1,0 +1,44 @@
+h1{
+	background-color: #000000;
+	color: #E1D4D4;
+	text-align: center; 
+}
+
+p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	 margin: 0 auto; 
+	 width: 900px;
+}
+
+.pic1{
+	max-height: 200px;
+	max-width: 200px;
+	border-radius: 100%;
+	float: left;
+	position: fixed;
+}
+
+div{
+	text-align: center;
+}
+
+h2{
+	color: red;
+	text-align: center;
+}
+.pic2, .pic3, .picC{
+	margin-left: 6%;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 30%; 
+}
+
+.picR{
+	max-width: 150px;
+	max-height: 150px;
+	float: right;
+}
+
+#foot{
+	text-align: center;
+}
