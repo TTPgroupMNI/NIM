@@ -18,6 +18,11 @@ p{
 	position: fixed;
 }
 
+.theHome{
+	text-decoration: none;
+	color: #E1D4D4;
+}
+
 div{
 	text-align: center;
 }
