@@ -6,6 +6,7 @@ body {
 
 .form-signin {
   max-width: 330px;
+  height: 600px;
   padding: 15px;
   margin: 0 auto;
 }
@@ -38,9 +39,26 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/* my code that i used to modify default bootstrap*/
 .btn-default{
   background-color: lightGrey;
 }
 .form-control:focus{
   border-color: black;
 }
+
+.form-signin-heading{
+  text-align: center;
+}
+#newUser{
+  float:left;
+  margin-right: 100px;
+  color: black;
+}
+#forgotPassword{
+  float:right;
+  color:black;
+  
+}
+
