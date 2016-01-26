@@ -1,0 +1,53 @@
+/*@media all and (max-width: 960px){ 
+  body{    
+   	background-color: orange;   
+   } 
+}
+*/
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	opacity: 0.4;
+	color: green;
+}
+.martian{ 
+	float: right;
+	background-image: url("https://consequenceofsound.files.wordpress.com/2015/04/screen-shot-2015-04-16-at-8-54-18-am.png?w=807");
+	background-size: cover;
+	height: 250px;
+	width: 250px;
+}
+
+h2{ 
+	visibility: hidden;
+	text-align: center;
+}
+/*This is for devices below 800px!!*/
+@media all and (max-width: 800px) {
+	.martian {
+		float: left;
+		background-image: url("https://cdn.amctheatres.com/Media/Default/images/martian4.png");
+		height: 260px;
+		width: 260px;
+		background-color: blue;
+		border-radius: 18%;
+	}
+
+/*	.Kanye:after{
+		content: " ";
+		display: none;
+	}
+*/
+	h1{
+		display: none;
+	}
+
+	h2{
+		font-size: 200%;
+		visibility: visible;
+	}
+}
