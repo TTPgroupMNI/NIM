@@ -42,7 +42,7 @@ a{
 	margin-right: 40px;
 	margin-bottom: 40px;
 	padding: 0px;
-	 float: left;
+	float: left;
 
 }
 .textboxFloat{
@@ -50,19 +50,19 @@ a{
 	margin: 0 auto;
 	margin-right: 40px;
 	margin-bottom: 140px;
+  padding: 0px;
+  background-color: black;
+  border-width: 20px;
+  border-style: solid;
+  border-color: black;
 
-	padding: 0px;
-	float: right;
-	clear right;
-	position:static;
-
+  display: block;
 }
 .textboxFloat2{
 	
 	width: 900px;
 	margin: 0 auto;
 	margin-left: 40px;
-	
 	padding: 0px;
 	float: left;
 	
@@ -76,7 +76,7 @@ div.header1{
 	padding: 0px;
 	font-style: italic;
 	font-size: 20px; 
-	color: green; 
+	color: white; 
 	background-color: transparent; 
 	text-align: center;
 	margin-bottom: 30px;
@@ -88,7 +88,7 @@ span.bold{font-style: italic;}
 .ipsum2{font-size: 18px; color: yellow; background-color: green}
 
 div.infoBox{
-	border: 5px solid black;
+	color: white;
 
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -203,7 +203,9 @@ img{
 
   width:300px;
 }
-
+#dis{
+  display:block;
+}
 .nav-bar{
   background-color: black;
   width: 100%; 
