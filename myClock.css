@@ -1,0 +1,18 @@
+body{
+  background-color: red;
+  color: green; 
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+form{
+	text-align: center;
+}
+
+h2{
+	float: right;
+	color: white; 
+}
