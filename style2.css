@@ -1,5 +1,5 @@
 
-
+/*snow css code Nicky Christensen*/
 img.imgboxFloat {
     float:left;
     margin: 0 40px 0px;
@@ -14,6 +14,7 @@ img.imgboxFloat2 {
 
 a{
   text-decoration: none;
+
 }
 
 .newsMockup{	
@@ -23,6 +24,7 @@ a{
 }
 .fontRed{
   color: white;
+  text-align: center;
 }
 .tablePagraphR{
 	width: 40%;
@@ -40,7 +42,7 @@ a{
 	margin-right: 40px;
 	margin-bottom: 40px;
 	padding: 0px;
-	 float: left;
+	float: left;
 
 }
 .textboxFloat{
@@ -48,19 +50,19 @@ a{
 	margin: 0 auto;
 	margin-right: 40px;
 	margin-bottom: 140px;
+  padding: 0px;
+  background-color: black;
+  border-width: 20px;
+  border-style: solid;
+  border-color: black;
 
-	padding: 0px;
-	float: right;
-	clear right;
-	position:static;
-
+  display: block;
 }
 .textboxFloat2{
 	
 	width: 900px;
 	margin: 0 auto;
 	margin-left: 40px;
-	
 	padding: 0px;
 	float: left;
 	
@@ -74,7 +76,7 @@ div.header1{
 	padding: 0px;
 	font-style: italic;
 	font-size: 20px; 
-	color: green; 
+	color: white; 
 	background-color: transparent; 
 	text-align: center;
 	margin-bottom: 30px;
@@ -86,7 +88,7 @@ span.bold{font-style: italic;}
 .ipsum2{font-size: 18px; color: yellow; background-color: green}
 
 div.infoBox{
-	border: 5px solid black;
+	color: white;
 
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -139,6 +141,7 @@ summary {
 
 .nav-bar {
   opacity: 0.4;
+  margin-top: 100px;
 }
 
 /**
@@ -200,7 +203,9 @@ img{
 
   width:300px;
 }
-
+#dis{
+  display:block;
+}
 .nav-bar{
   background-color: black;
   width: 100%; 
@@ -602,3 +607,41 @@ td,
 th {
   padding: 0;
   }
+
+  /*Snow by NickyCDK*/
+  body { background-color:#333; }
+#snow{
+  background: none;
+  font-family: Androgyne;
+  background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+} 
