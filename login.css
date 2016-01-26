@@ -1,7 +1,7 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
+  background-color: white;
 }
 
 .form-signin {
@@ -37,4 +37,10 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.btn-default{
+  background-color: lightGrey;
+}
+.form-control:focus{
+  border-color: black;
 }
