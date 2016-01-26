@@ -34,8 +34,8 @@
   <body>
 
     <div class="container">
-
-      <form class="form-signin">
+      <!-- sign in-->
+      <form id="signIn" class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
         <label for="inputEmail" class="sr-only">Email address</label>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
@@ -47,12 +47,39 @@
           </label>
         </div>        
         <button class="btn btn-lg btn-default btn-block" type="submit">Sign in</button>
-        <div id="newUserLink">
-          <a href="">new user</a> 
-        </div>
-        <div id="forgotPassLink">
-          <a href="">forgot password</a>
-        </div>
+        <a id="newUser" href="#register">new user</a> 
+        <a id="forgotPassword" href="#forgot">forgot password</a> 
+      </form>
+
+      <!-- register -->
+      <form id="register" class="form-signin">
+        <h2 class="form-signin-heading">Register</h2>
+
+        <label for="inputEmail" class="sr-only">First Name</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="First Name" required autofocus>
+
+        <label for="inputEmail" class="sr-only">Last Name</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Last Name" required autofocus>
+
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+      
+        <button class="btn btn-lg btn-default btn-block" type="submit">Register</button> 
+      </form>
+
+      <!-- forgot password-->
+      <form id="forgot" class="form-signin">
+        <h2 class="form-signin-heading">Forgot Password</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        
+        <br> <!--temp solution-->
+           
+          <button class="btn btn-lg btn-default btn-block" type="submit">Send Email</button>
+        
       </form>
 
     </div> <!-- /container -->

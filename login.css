@@ -6,6 +6,7 @@ body {
 
 .form-signin {
   max-width: 330px;
+  height: 600px;
   padding: 15px;
   margin: 0 auto;
 }
@@ -50,12 +51,14 @@ body {
 .form-signin-heading{
   text-align: center;
 }
-#newUserLink{
+#newUser{
   float:left;
-  margin-right: 30px;
+  margin-right: 100px;
+  color: black;
 }
-#forgotPasswordLink{
+#forgotPassword{
   float:right;
+  color:black;
   
-
 }
+
