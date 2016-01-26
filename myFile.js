@@ -1,604 +1,145 @@
-
-
-img.imgboxFloat {
-    float:left;
-    margin: 0 40px 0px;
-   	clear: left;
-
-}
-img.imgboxFloat2 {
-    float:right;
-    margin: 0 40px 0px;
-   	clear: right;
-}
-
-a{
-  text-decoration: none;
-}
-
-.newsMockup{	
-	margin-left:170px;
-	color:white;
-
-}
-.fontRed{
-  color: white;
-}
-.tablePagraphR{
-	width: 40%;
-	margin: 0 auto;
-	margin-right: 40px;
-	margin-bottom: 40px;
-	padding: 0px;
-	float: left;
-	
-}
-
-.tablePagraphL{
-	width: 40%;
-	margin: 0 auto;
-	margin-right: 40px;
-	margin-bottom: 40px;
-	padding: 0px;
-	 float: left;
-
-}
-.textboxFloat{
-	width: 950px;
-	margin: 0 auto;
-	margin-right: 40px;
-	margin-bottom: 140px;
-
-	padding: 0px;
-	float: right;
-	clear right;
-	position:static;
-
-}
-.textboxFloat2{
-	
-	width: 900px;
-	margin: 0 auto;
-	margin-left: 40px;
-	
-	padding: 0px;
-	float: left;
-	
-}
-
-.blackBody{
-	background-image: url("night-690182.jpg");
-}
-
-div.header1{
-	padding: 0px;
-	font-style: italic;
-	font-size: 20px; 
-	color: green; 
-	background-color: transparent; 
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-
-span.bold{font-style: italic;}
-.ipsum1{font-size: 18px; color: green; background-color: yellow}
-.ipsum2{font-size: 18px; color: yellow; background-color: green}
-
-div.infoBox{
-	border: 5px solid black;
-
-}
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
-
-html {
-  font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/**
- * Remove default margin.
- */
-
-body {
-  margin: 0;
-}
-
-/* HTML5 display definitions
-   ========================================================================== */
-
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
-
-.nav-bar {
-  opacity: 0.4;
-}
-
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
-
-audio,
-canvas,  
-progress,
-video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
-}
-
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
-
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
-
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
- */
-
-[hidden],
-template {
-  display: none;
-}
-
-/* Links
-   ========================================================================== */
-
-lightbox-outer{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0; /*Start at the left most position*/ 
-  top: 0; /*Start at the top most position*/
-  background-color: rgba(0,0,0,.7);
-  display: none;
-}
-
-.lightbox-inner{
-  text-align: center;
-}
-
-h2{
-  color: red;
-  text-align: center;
-}
-
-img{
-
-  width:300px;
-}
-
-.nav-bar{
-  background-color: black;
-  width: 100%; 
-  position: fixed;
-  padding: 20px 0;
-}
-
-ul{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-/*
-
-*/
-li{
-  list-style-type: none;
-  display: inline-block;
-  text-align: center;
-  margin: 0px 15px;
-  position: relative;
-}
-.modules{
-  text-align: center;
-}
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
-a.the-zebra, a.lightbox-link{
-  text-decoration: none;
-  color: red;
+var APPID = ''; // Your Yahoo Application ID
+var DEG = 'c';  // c for celsius, f for fahrenheit
+// Does this browser support geolocation?
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(locationSuccess, locationError);
 }
-
-.dropdown{
-  position: absolute;
-  left: -12px;
-  text-align: center;
-  padding-bottom: 10px;
-  background-color: black;
-}
- 
-.dropdown li{
-  display: none;
-}
-
-li:hover .dropdown li{
-  display: block;
-}
-
-/**
- * Remove the gray background color from active links in IE 10.
- */
-
-a {
-  background-color: black;
-}
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
-li:hover .dropdown li{
-  display: block;
-}
-
-/* Text-level semantics
-   ========================================================================== */
-
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
-
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-
-
-
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
-
-b,
-strong {
-  font-weight: bold;
-}
-
-/**
- * Address styling not present in Safari and Chrome.
- */
-
-dfn {
-  font-style: italic;
-}
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-/* Embedded content
-   ========================================================================== */
-
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
-
-img {
-  border: 0;
+else{
+  showError("Your browser does not support Geolocation!");
 }
 
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
+weatherDiv.find('a.next').click(function(e){
+    e.preventDefault();
+    showSlide(currentSlide+1);
+  });
 
-svg:not(:root) {
-  overflow: hidden;
-}
+function locationSuccess(position) {
+  var lat = 40.7345250;
+  var lon = -73.8179300;
 
-/* Grouping content
-   ========================================================================== */
+  // Yahoo's PlaceFinder API http://developer.yahoo.com/geo/placefinder/
+  // We are passing the R gflag for reverse geocoding (coordinates to place name)
+  var geoAPI = 'http://where.yahooapis.com/geocode?location='+lat+','+lon+'&flags=J&gflags=R&appid='+APPID;
 
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
+  // Forming the query for Yahoo's weather forecasting API with YQL
+  // http://developer.yahoo.com/weather/
 
-figure {
-  margin: 1em 40px;
-}
+  var wsql = 'select * from weather.forecast where woeid=WID and u="'+DEG+'"',
+    weatherYQL = 'http://query.yahooapis.com/v1/public/yql?q='+encodeURIComponent(wsql)+'&format=json&callback=?',
+    code, city, results, woeid;
 
-/**
- * Address differences between Firefox and other browsers.
- */
-
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
+  // Issue a cross-domain AJAX request (CORS) to the GEO service.
+  // Not supported in Opera and IE.
+  $.getJSON(geoAPI, function(r){
 
-/**
- * Contain overflow in all browsers.
- */
+    if(r.ResultSet.Found == 1){
 
-pre {
-  overflow: auto;
-}
+      results = r.ResultSet.Results;
+      city = results[0].city;
+      code = results[0].statecode || results[0].countrycode;
 
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
+      // This is the city identifier for the weather API
+      woeid = results[0].woeid;
 
-/* Forms
-   ========================================================================== */
-
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  margin: 0; /* 3 */
-}
+      // Make a weather API request (it is JSONP, so CORS is not an issue):
+      $.getJSON(weatherYQL.replace('WID',woeid), function(r){
 
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
+        if(r.query.count == 1){
 
-button {
-  overflow: visible;
-}
+          // Create the weather items in the #scroller UL
 
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-
-button,
-select {
-  text-transform: none;
-}
+          var item = r.query.results.channel.item.condition;
+          addWeather(item.code, "Now", item.text + ' <b>'+item.temp+'°'+DEG+'</b>');
 
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-
-button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
-}
+          for (var i=0;i<2;i++){
+            item = r.query.results.channel.item.forecast[i];
+            addWeather(
+              item.code,
+              item.day +' <b>'+item.date.replace('\d+$','')+'</b>',
+              item.text + ' <b>'+item.low+'°'+DEG+' / '+item.high+'°'+DEG+'</b>'
+            );
+          }
 
-/**
- * Re-set default cursor for disabled elements.
- */
+          // Add the location to the page
+          location.html(city+', <b>'+code+'</b>');
 
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
+          weatherDiv.addClass('loaded');
 
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
+          // Set the slider to the first slide
+          showSlide(0);
 
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
+        }
+        else {
+          showError("Error retrieving weather data!");
+        }
+      });
 
-input {
-  line-height: normal;
-}
+    }
 
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
+  }).error(function(){
+    showError("Your browser does not support CORS requests!");
+  });
 
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
 }
+function locationError(error){
+  switch(error.code) {
+    case error.TIMEOUT:
+      showError("A timeout occured! Please try again!");
+      break;
+    case error.POSITION_UNAVAILABLE:
+      showError('We can\'t detect your location. Sorry!');
+      break;
+    case error.PERMISSION_DENIED:
+      showError('Please allow geolocation access for this to work.');
+      break;
+    case error.UNKNOWN_ERROR:
+      showError('An unknown error occured!');
+      break;
+  }
 
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
- *    (include `-moz` to future-proof).
- */
-
-input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box; /* 2 */
-  box-sizing: content-box;
 }
 
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+function showError(msg){
+  weatherDiv.addClass('error').html(msg);
 }
+function addWeather(code, day, condition){
 
-/**
- * Define consistent border, margin, and padding.
- */
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
+  var markup = '<li>'+
+    '<img src="assets/img/icons/'+ weatherIconMap[code] +'.png" />'+
+    ' <p class="day">'+ day +'</p> <p class="cond">'+ condition +
+    '</p></li>';
 
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-
-legend {
-  border: 0; /* 1 */
-  padding: 0; /* 2 */
+  scroller.append(markup);
 }
 
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
+var currentSlide = 0;
+  weatherDiv.find('a.previous').click(function(e){
+    e.preventDefault();
+    showSlide(currentSlide-1);
+  });
 
-textarea {
-  overflow: auto;
-}
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
+  
 
-optgroup {
-  font-weight: bold;
-}
+  function showSlide(i){
+    var items = scroller.find('li');
 
-/* Tables
-   ========================================================================== */
+    // Exit if the requested item does not exist,
+    // or the scroller is currently being animated
+    if (i >= items.length || i < 0 || scroller.is(':animated')){
+      return false;
+    }
 
-/**
- * Remove most spacing between table cells.
- */
+    // The first/last classes hide the left/right arrow with CSS
+    weatherDiv.removeClass('first last');
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+    if(i == 0){
+      weatherDiv.addClass('first');
+    }
+    else if (i == items.length-1){
+      weatherDiv.addClass('last');
+    }
 
-td,
-th {
-  padding: 0;
+    scroller.animate({left:(-i*100)+'%'}, function(){
+      currentSlide = i;
+    });
   }
