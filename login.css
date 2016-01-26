@@ -38,9 +38,24 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/* my code that i used to modify default bootstrap*/
 .btn-default{
   background-color: lightGrey;
 }
 .form-control:focus{
   border-color: black;
+}
+
+.form-signin-heading{
+  text-align: center;
+}
+#newUserLink{
+  float:left;
+  margin-right: 30px;
+}
+#forgotPasswordLink{
+  float:right;
+  
+
 }
