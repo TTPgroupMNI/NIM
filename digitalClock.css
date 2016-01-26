@@ -1,0 +1,19 @@
+body{
+  background-color: aqua;
+  color: black;
+  background-image: url("http://www.samdebrule.com/assets/img/walking-to-work.jpg");
+}
+
+#clock{
+  font-size: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#milliseconds{
+	font-size: 4em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+    margin-top: 100px;
+}
