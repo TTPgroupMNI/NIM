@@ -75,7 +75,7 @@ a{
 div.header1{
 	padding: 0px;
 	font-style: italic;
-	font-size: 20px; 
+	font-size: 13px; 
 	color: white; 
 	background-color: transparent; 
 	text-align: center;
@@ -89,6 +89,7 @@ span.bold{font-style: italic;}
 
 div.infoBox{
 	color: white;
+  margin-top: 30%;
 
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -607,6 +608,27 @@ td,
 th {
   padding: 0;
   }
+
+  /*Digital Clock*/
+body.digitalClock{
+  background-color: aqua;
+  color: white;
+  background-image: url("http://www.samdebrule.com/assets/img/walking-to-work.jpg");
+}
+#clock{
+  font-size: 50%;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 8%;
+  color: white;
+}
+
+#milliseconds{
+  font-size: 4em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
 
   /*Snow by NickyCDK*/
   body { background-color:#333; }

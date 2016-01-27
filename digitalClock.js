@@ -10,8 +10,10 @@ $(document).ready(function(){
     	var el = document.getElementById('clock');
 		var style = window.getComputedStyle(el, null).getPropertyValue('font-size');
 		var fontSize = parseFloat(style); 
-		console.log(fontSize);
-		if (seconds < 20) el.style.fontSize = 15+ (seconds/2) + 'px';
+		if (seconds < 25) {
+			el.style.fontSize = 17 + (seconds/2) + 'px';
+			el.style.margin= (seconds/2) + "%" ;
+		}
 		else el.style.fontSize = (seconds) + 'px';
 	},100)
 
